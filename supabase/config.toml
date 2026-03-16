@@ -1,0 +1,4 @@
+project_id = "cokapxxjzpuagjztmadx"
+
+[functions.detect-issue]
+verify_jwt = false
