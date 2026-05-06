@@ -1,126 +1,184 @@
 # 🏙️ Smart City Issue Resolver
 
-A modern web application designed to help citizens report, track, and resolve civic issues efficiently. This platform bridges the gap between the public and authorities by enabling real-time issue reporting and transparent resolution workflows.
+A modern **Smart City Issue Reporting System** that allows citizens to report civic problems with location-based tracking, interactive maps, and real-time data handling using Supabase.
 
+---
 
-## 🚀 Features
+## 🚀 Overview
 
-* 📍 **Issue Reporting** – Users can report civic problems (e.g., potholes, garbage, streetlight issues)
-* 🖼️ **Image Upload** – Attach photos for better clarity
-* 📊 **Real-Time Status Tracking** – Monitor issue progress
-* 👥 **Role-Based Access**
+Smart City Issue Resolver is a frontend-focused web application built with **React + Vite + TypeScript**, integrated with **Supabase** for backend services and **Leaflet maps** for geolocation-based issue reporting.
 
-  * Citizens: Report and track issues
-  * Workers: View and resolve assigned issues
-  * Admin: Manage users and oversee operations
-* 🔔 **Notifications / Updates**
-* 📱 **Responsive UI** – Works across devices
+Users can report civic issues like:
 
+* 🕳️ Potholes
+* 💡 Streetlight failures
+* 🗑️ Garbage overflow
+* 🚧 Road damages
+
+The system visualizes issues on a map and enables efficient tracking.
+
+---
+
+## ✨ Key Features
+
+* 📍 **Map-based Issue Reporting (Leaflet)**
+* 🗺️ **Interactive Location Selection**
+* ☁️ **Supabase Integration (Backend-as-a-Service)**
+* ⚡ **Fast UI with Vite**
+* 🎨 **Modern UI using Tailwind CSS + ShadCN UI**
+* 🔄 **State Management with React Query**
+* 📊 **Data Visualization (Recharts)**
+* 🧾 **Form Handling with React Hook Form + Zod validation**
+* 🎭 **Smooth Animations (Framer Motion)**
+* 🌙 **Dark/Light Theme Support**
+
+---
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
+### Frontend
 
-* React.js (with Vite)
+* React 18
 * TypeScript
+* Vite
+
+### UI & Styling
+
 * Tailwind CSS
+* ShadCN UI
+* Radix UI Components
 
-**Backend:**
+### State & Data
 
-* Node.js
-* Express.js
+* React Query (@tanstack/react-query)
+* React Hook Form
+* Zod (Validation)
 
-**Database:**
+### Maps & Location
 
-* MongoDB
+* Leaflet
+* React Leaflet
 
-**Other Tools:**
+### Backend (BaaS)
 
-* Socket.io (for real-time updates)
-* Playwright / Vitest (for testing)
+* Supabase
 
+### Testing
 
+* Vitest
+* Playwright
+
+---
 
 ## 📂 Project Structure
 
-Smart-City-Issue-Resolver/
+java-genesis-project-main/
 │
-├── src/                 # Frontend source code
-├── public/              # Static assets
-├── server/ (if exists)  # Backend code
-├── components/          # Reusable UI components
-├── config/              # Configuration files
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Application pages
+│   ├── hooks/            # Custom hooks
+│   ├── lib/              # Utilities & config
+│
+├── public/               # Static assets
+├── index.html
 ├── package.json
+├── tailwind.config.ts
+├── vite.config.ts
 └── README.md
 
 
-## ⚙️ Installation & Setup
+## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Divyadharshini-03r/smart-city-issue-resolver.git
 cd smart-city-issue-resolver
 ```
 
-### 2️⃣ Install dependencies
+---
+
+### 2️⃣ Install Dependencies
 
 ```bash
 npm install
 ```
 
+---
 
-### 4️⃣ Run the project
+### 4️⃣ Run the Application
 
-**Frontend:**
-
-
+```bash
 npm run dev
+```
 
+App will run on:
+👉 `http://localhost:5173`
 
-**Backend :**
+---
 
+## 🧪 Running Tests
 
-npm start
--
-
- 🧪 Testing
-
+```bash
 npm run test
- 🌍 Use Case
+```
 
-This system can be used by:
+For watch mode:
 
-* Municipal corporations
-* Smart city initiatives
-* Campus management systems
-* Community-driven platforms
+```bash
+npm run test:watch
+```
 
- 🔮 Future Enhancements
+---
 
-* AI-based issue categorization
-* Priority-based auto assignment
-* Mobile app integration
-* Analytics dashboard
+## 📊 Scripts
 
+| Command         | Description              |
+| --------------- | ------------------------ |
+| npm run dev     | Start development server |
+| npm run build   | Build for production     |
+| npm run preview | Preview production build |
+| npm run test    | Run tests                |
+| npm run lint    | Run ESLint               |
 
+---
 
-🤝 Contributing
+## 🌍 Use Cases
 
-Contributions are welcome!
+* Smart city governance platforms
+* Municipal complaint systems
+* Campus issue reporting systems
+* Community-driven civic apps
 
-1. Fork the repo
-2. Create a new branch
-3. Make your changes
-4. Submit a pull request
+---
 
+## 🔮 Future Improvements
 
+* 📸 Image upload for issues
+* 🔔 Real-time notifications
+* 🧠 AI-based issue categorization
+* 📱 Mobile app version
+* 👨‍💼 Admin dashboard
 
- 📄 License
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit changes
+4. Open a Pull Request
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License.
 
- 👨‍💻 Author
+---
+
+## 👨‍💻 Author
 
 Developed by Divyadharshini R
 
@@ -128,4 +186,4 @@ Developed by Divyadharshini R
 
 ## ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you find this project useful, give it a ⭐ on GitHub!
