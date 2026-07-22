@@ -410,6 +410,6 @@ This project contributes toward:
 
 🚀 **Together, let's build cleaner, safer, and smarter cities for everyone.**
 
-⭐ **Happy Coding!**
+⭐ **Bin It to Win It – The Cleanliness Game!**
 
 </div>
