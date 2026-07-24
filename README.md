@@ -1,7 +1,10 @@
-# 🏙️ Smart Issue City
 <div align="center">
+
+# 🏙️ Smart Issue City
+
      
 ### *Transforming Citizen Voices into Smarter Cities*
+
 
 </div>
 
