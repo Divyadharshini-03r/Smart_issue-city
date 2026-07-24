@@ -16,7 +16,6 @@
 
 ### Building Smarter Cities through Citizen Participation & Technology
 
-⭐ **If this project inspires you, don't forget to Star this repository!**
 
 </div>
 
