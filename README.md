@@ -15,7 +15,6 @@
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript" />
 <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss" />
 <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase" />
-<img src="https://img.shields.io/badge/OpenStreetMap-Leaflet-199900?style=for-the-badge" />
 
 <br>
 
